@@ -14,12 +14,11 @@ brew install yarn rbenv
 
 ### Others
 
-Install nodejs, yarn, ruby (either using rbenv or a relatively recent version of ruby), and make.
+Install nodejs, yarn, and rbenv.
 
 ## Setup
 
 For convenience, an rbenv configuration file is included to vendor the version of Ruby being used.
-This setup is optional, but it makes things simpler.
 Run `rbenv init` to see instructions on how to set that up for your shell.
 Next, run the following command to install Bundler:
 
@@ -30,8 +29,8 @@ gem install bundler
 Once these tools are installed, run the following to install our Ruby and JavaScript dependencies.
 
 ```bash
-make install
+bundle exec rake install
 ```
 
-Then you can run `make` or `make serve` to run Jekyll locally, or `JEKYLL_ENV=production make build` to simply compile the site into the `_site/` directory for deployment purposes.
+Then you can run `bundle exec rake` or `bundle exec rake serve` to run Jekyll locally, or `JEKYLL_ENV=production bundle exec rake build` to simply compile the site into the `_site/` directory for deployment purposes.
 These files would typically be committed to the `asf-site` branch either by a committer or by CI.
