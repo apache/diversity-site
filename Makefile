@@ -4,7 +4,8 @@ BUNDLE := bundle
 VENDOR_DIR := assets/vendor/
 JEKYLL := bundle exec jekyll
 
-PROJECT_DEPS := package.json Gemfile
+# all dependency-related declarations
+PROJECT_DEPS := package.json Gemfile .ruby-version
 
 .PHONY: all clean install update
 
@@ -14,10 +15,11 @@ check:
 	$(JEKYLL) doctor
 
 install: $(PROJECT_DEPS)
-	$(BUNDLE)
-	$(YARN)
+	$(BUNDLE) install
+	$(YARN) install
 
 update: $(PROJECT_DEPS)
+	$(BUNDLE) update
 	$(YARN) upgrade
 
 include-npm-deps:
@@ -31,3 +33,6 @@ build: include-npm-deps
 
 serve: include-npm-deps
 	JEKYLL_ENV=production $(JEKYLL) serve
+
+clean:
+	rm -rf .sass-cache _site assets/vendor node_modules
