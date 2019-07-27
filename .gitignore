@@ -1,1 +1,4 @@
-node_modules
+/node_modules
+/.sass-cache
+/assets/vendor
+/_site

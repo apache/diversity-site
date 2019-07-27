@@ -1,0 +1,14 @@
+{
+  "name": "diversity.apache.org",
+  "version": "1.0.0",
+  "description": "Website for Diversity and Inclusion at the ASF",
+  "main": "index.js",
+  "repository": "git@github.com:apache/diversity-site.git",
+  "author": "Matt Sicker <boards@gmail.com>",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.15.0"
+  }
+}

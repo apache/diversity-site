@@ -1,0 +1,11 @@
+title: "Diversity and Inclusion at Apache"
+url: "https://diversity.apache.org/"
+sass:
+  load_paths:
+    - _sass
+    - node_modules
+excludes:
+  - Makefile
+  - README.md
+  - package.json
+  - yarn.lock
