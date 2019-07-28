@@ -1,11 +1,34 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <title>{{ page.title }}</title>
         <link rel="stylesheet" href="{{'/assets/main.css' | prepend: site.baseurl}}">
     </head>
     <body>
-        {{ content }}
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <a class="navbar-brand" href="https://www.apache.org/">
+                <img src="{{'/assets/img/feather.svg' | prepend: site.baseurl}}" width="30" height="30" alt="Apache Feather">
+                Apache
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item{% if page.id == 'diversity-home' %} active{% endif %}">
+                        <a class="nav-link" href="{% link index.html %}">Diversity &amp; Inclusion</a>
+                    </li>
+                    <li class="nav-item{% if page.id == 'outreachy-home' %} active{% endif %}">
+                        <a class="nav-link" href="{% link outreachy.html %}">Outreachy</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="container">
+            {{ content }}
+        </div>
         <script src="{{'/assets/vendor/jquery.min.js' | prepend: site.baseurl}}"></script>
         <script src="{{'/assets/vendor/popper.min.js' | prepend: site.baseurl}}"></script>
         <script src="{{'/assets/vendor/bootstrap.min.js' | prepend: site.baseurl}}"></script>
