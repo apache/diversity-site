@@ -14,7 +14,7 @@ brew install yarn rbenv
 
 ### Others
 
-Install nodejs, yarn, and rbenv.
+Install nodejs, yarn, rbenv, and ruby.
 
 ## Setup
 
@@ -26,11 +26,16 @@ Next, run the following command to install Bundler:
 gem install bundler
 ```
 
-Once these tools are installed, run the following to install our Ruby and JavaScript dependencies.
+Then run the following to run Jekyll locally in development mode:
 
 ```bash
-bundle exec rake install
+./rake.sh
 ```
 
-Then you can run `bundle exec rake` or `bundle exec rake serve` to run Jekyll locally, or `JEKYLL_ENV=production bundle exec rake build` to simply compile the site into the `_site/` directory for deployment purposes.
+To only build the site, run:
+
+```bash
+JEKYLL_ENV=production ./rake.sh build
+```
+
 These files would typically be committed to the `asf-site` branch either by a committer or by CI.
