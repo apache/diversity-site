@@ -1,0 +1,20 @@
+- title: Call For Proposals
+  text: >
+    Submit an Outreachy intern project proposal for the December 2019 to March 2020 internship round.
+    Project proposals are due by 24 September 2019.
+  button:
+    label: Submit Project Proposal
+    link: https://www.outreachy.org/december-2019-to-march-2020-internship-round/communities/apache/submit-project/
+- title: Mentors
+  text: >
+    Apache needs mentors!
+  button:
+    label: Get More Info
+    link: https://www.outreachy.org/mentor/
+- title: Interns
+  text: >
+    Applications for Outreachy interns begin on 20 August 2019.
+    Sign up to the [Outreachy announcements mailing list](https://lists.outreachy.org/cgi-bin/mailman/listinfo/announce) to get notified when the application period begins.
+  button:
+    label: Apply to Outreachy
+    link: https://www.outreachy.org/apply/
