@@ -5,7 +5,7 @@ pelican:
 
 staging:
   profile: ~
-  whoami:  asf-staging
+  whoami:  asf-site
      
 publish:
   whoami:  asf-site
