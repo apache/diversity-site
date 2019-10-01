@@ -12,6 +12,13 @@ TIMEZONE = 'UTC'
 
 DEFAULT_LANG = u'en'
 
+# Plugins
+PLUGIN_PATHS = ['./theme/plugins']
+PLUGINS = ['toc']
+
+# TOC Options
+TOC_HEADERS = r"h[1-6]"
+
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
