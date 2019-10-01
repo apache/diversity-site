@@ -1,0 +1,11 @@
+pelican:
+  whoami: master
+  target: asf-site
+  theme: 
+
+staging:
+  profile: ~
+  whoami:  asf-staging
+     
+publish:
+  whoami:  asf-site
