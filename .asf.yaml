@@ -1,7 +1,7 @@
 pelican:
   whoami: master
   target: asf-site
-  theme: 
+  theme: notmyidea 
 
 staging:
   profile: ~
