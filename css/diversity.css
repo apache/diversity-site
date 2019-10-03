@@ -1,0 +1,120 @@
+/*
+ * Licensed to the Apache Software Foundation (ASF) under one
+ * or more contributor license agreements.  See the NOTICE file
+ * distributed with this work for additional information
+ * regarding copyright ownership.  The ASF licenses this file
+ * to you under the Apache License, Version 2.0 (the
+ * "License"); you may not use this file except in compliance
+ * with the License.  You may obtain a copy of the License at
+ *
+ *   http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing,
+ * software distributed under the License is distributed on an
+ * "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ * KIND, either express or implied.  See the License for the
+ * specific language governing permissions and limitations
+ * under the License.
+ */
+html {
+  font-family: "Open Sans Condensed";
+}
+
+.logo {
+  margin: 5px 0px;
+  height: 55px;
+}
+
+.brand {
+  margin: 0px 10px;
+  position: absolute;
+}
+
+.side-nav-heading {
+  margin: 20px 0px;
+  font-size: 1.9rem;
+  text-align: center;
+}
+
+.side-nav li:hover {
+  background-color: #ffffff;
+}
+
+.jet {
+  background-color: #282661;
+}
+
+.jet-text {
+  color: #000000;
+}
+
+.jet-hover:hover {
+  background-color: #282661;
+  color: #ffffff;
+}
+
+.ghost-white {
+  background-color: #ffffff;
+}
+
+.ghost-white-text {
+  color: #ffffff;
+}
+
+.ghost-white-hover:hover {
+  background-color: #ffffff;
+  color: #282661;
+}
+
+.side-nav li {
+  padding: 0;
+}
+
+.justify-align {
+  text-align: justify;
+}
+
+.divider {
+  border: 0;
+  height: 1px;
+  background: #343434;
+  background-image: linear-gradient(to right, #ffffff, #000000, #ffffff);
+}
+
+.divider-inverse {
+  background: #f8f8ff;
+  background-image: linear-gradient(to right, #282661, #000000, #282661);
+}
+
+.link-inverse {
+  color: #ffffff;
+}
+
+.link-inverse:hover {
+  color: #039BE5;
+}
+
+.circle-list-style {
+  padding: 0px 20px;
+  list-style-type: circle;
+  list-style-position: inside;
+}
+
+footer.page-footer {
+  background-color: #282661;
+  color: #f8f8ff;
+}
+
+@media screen and (max-width: 992px) {
+  .brand {
+    display: none;
+    visibility: hidden;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .logo {
+    margin: 5px 0px;
+    height: 45px;
+  }
+}
