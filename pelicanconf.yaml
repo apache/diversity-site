@@ -1,0 +1,13 @@
+site:
+  name: Apache Diversity & Inclusion
+  description: The official website of the Apache Diversity & Inclusion
+  domain: diversity.apache.org
+  logo: images/httpd_logo_wide_new.png
+  repository: https://github.com/apache/diversity-site/blob/main/content/
+  trademarks: Apache HTTP Server, Apache, and the Apache feather logo are trademarks of The Apache Software Foundation.
+
+theme: theme
+
+plugins:
+    toc:
+      toc_headers: r"h[1-6]"
