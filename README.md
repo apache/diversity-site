@@ -5,4 +5,4 @@ The `asf-site` branch of this repo creates the https://diversity.apache.org/ web
 D&I folks: we need to choose a format/build system and then setup a welcome page.  Recommended choices:
 
 - GH Pages
-- Pelican (the Infra team uses this) 
+- Pelican (the Infra team uses this) - (andreww) This note is six years old. I think we should review options
