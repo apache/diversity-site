@@ -1,6 +1,6 @@
 Title: About Diversity & Inclusion
 # Who we are
 
-## D&I committee
+## D&I committees
 
 # How to Join
