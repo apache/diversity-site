@@ -5,10 +5,11 @@ pelican:
   whoami: master
   target: asf-site
   theme: notmyidea 
+  autobuild: preview/*
 
 staging:
-  profile: ~
   whoami:  asf-site
+  autostage: preview/*
      
 publish:
   whoami:  asf-site
