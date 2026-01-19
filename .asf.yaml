@@ -1,5 +1,5 @@
 meta:
-  environment:
+  environments:
     - citest
 pelican:
   whoami: master
@@ -9,7 +9,6 @@ pelican:
 
 staging:
   whoami:  asf-site
-  autostage: preview/*
      
 publish:
   whoami:  asf-site
