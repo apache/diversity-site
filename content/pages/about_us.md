@@ -4,3 +4,4 @@ Title: About Diversity & Inclusion
 ## D&I committee
 
 # How to Join
+Coming soon
