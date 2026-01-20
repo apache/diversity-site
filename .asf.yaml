@@ -9,6 +9,7 @@ pelican:
 
 staging:
   whoami:  asf-site
+  autostage: preview/*
      
 publish:
   whoami:  asf-site
