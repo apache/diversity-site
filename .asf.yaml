@@ -1,0 +1,14 @@
+meta:
+  environments:
+    - citest
+pelican:
+  whoami: master
+  target: asf-site
+  theme: notmyidea 
+  autobuild: preview/*
+
+staging:
+  whoami:  asf-site
+     
+publish:
+  whoami:  asf-site
