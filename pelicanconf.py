@@ -14,7 +14,7 @@ DEFAULT_LANG = u'en'
 
 # Plugins
 PLUGIN_PATHS = ['./theme/plugins']
-PLUGINS = ['toc']
+PLUGINS = ['toc', 'gfm']
 
 # TOC Options
 TOC_HEADERS = r"h[1-6]"
